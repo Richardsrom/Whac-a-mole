@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css">
+    <script src="https://kit.fontawesome.com/8221e8f8f7.js" crossorigin="anonymous"></script>
+    <title>Whac a mole</title>
+</head>
+<body>
+
+    <header class="information container">
+        <h1 class="information-title">Whac a mole </h1>
+        <p class="information-instructions">The game is simple: try to hit the mole to reach a score of 12 points. Each hit equals 1 point. When you reach 12 points, you will advance to the next level. Each level is more challenging, try to complete all levels to win the game.</p>
+    </header> 
+
+    <main>
+        <section class="gameOptions container">
+            <h2 class="gameOptions-title title-style">Game Options</h2>
+            <button class="btn" id="btn-start">
+                <img class="img" src="./images/mario.png">
+                <span class="now">now!</span>
+                <span class="play">play</span>
+            </button>
+            <button class="btn btn-pause" id="btn-pause">
+                <img class="img img-luigi" src="./images/luigi.png">
+                <i class="fa-solid fa-pause icon-pause"></i>
+                <span class="play">pause</span>
+            </button>
+            <button class="btn btn-reset" id="btn-reset">
+                <img class="img img-bowser" src="./images/bowser.png">
+                <span class="now">game</span>
+                <span class="play">reset</span>
+            </button>
+        </section>
+    
+        <section class="gameStatistics container container-modified">
+      
+            <article class="gameStatistics-level">
+                <h2 class="title-style title-style-modified title-current-level">Current Level: <span class="title-style title-style-modified" id="level">Tutorial</span></h2>
+            </article>
+    
+            <article class="gameStatistics-scoreDisplay">
+                <h2 class="title-style title-style-modified">Your score: <span class="title-style title-style-modified" id="score">0</span></h2>
+            </article>
+    
+            <article class="gameStatistics-timeDisplay">
+                <h2 class="title-style title-style-modified">Time left: <span class="title-style title-style-modified" id="time-left">30</span></h2>
+            </article>
+        
+    
+        </section>
+    
+    
+        <div class="gridGame" id="grid"></div>
+
+    </main>
+
+    <footer class="container  container-footer">
+        <p class="author">Desarrollado por Charly 👻</p>
+    </footer>
+
+    
+   
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
+
