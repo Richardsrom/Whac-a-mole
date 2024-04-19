@@ -290,21 +290,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .mole {
-    width: fit-content;
     height: 120px;
     position: absolute;
     left: 1.25rem;
 }
 
 .piranha-plant {
-    width: fit-content;
     height: 120px;
     position: absolute;
     left: 3.25rem;
 }
 
 .firePiranha-plant {
-    width: fit-content;
     height: 100px;
     position: absolute;
     left: 2.438rem;
@@ -312,7 +309,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .frostPiranha-plant {
-    width: fit-content;
     height: 100px;
     position: absolute;
     left: 2.438rem;
